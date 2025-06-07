@@ -1,0 +1,114 @@
+# Python
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# C extensions
+*.so
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+mypy_primer_build/
+
+# pytest
+.pytest_cache/
+.coverage
+.benchmarks
+
+# Django
+# Database
+*.sqlite3
+/db.sqlite3 # Specific to your project's default database file
+
+# Media and static files (generated or user-uploaded)
+/media/
+/static_collected/ # If you run collectstatic, this will be generated
+
+# IDEs and Editors
+# VS Code
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*~
+.netrwhist
+
+# Emacs
+#*#
+.elc
+*.fas
+.lock
+*.org
+
+# Operating System Files
+.DS_Store # macOS
+.Trashes # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+Desktop.ini # Windows
+
+# Deep Learning Specific
+# Model checkpoints and saved models
+/models/
+/checkpoints/
+*.pt # PyTorch model files
+*.pth # PyTorch model files
+*.h5 # Keras/TensorFlow HDF5 models
+*.ckpt # TensorFlow checkpoints
+runs/ # Often used by TensorBoard/PyTorch Lightning for logging
+
+# Datasets (raw and processed)
+# The data directory itself, or specific large files within it
+/data/ # Ignore the entire data directory. You should manage datasets separately (e.g., cloud storage, DVC)
+# If you want to keep data/ but ignore large files:
+# data/*.zip
+# data/*.tar.gz
+# data/*.bin
+# data/*.parquet
+# data/*.csv # Be careful with this; small CSVs might be useful in Git
+
+# Logs
+*.log
+logs/
+
+# Environment variables / configuration files
+.env
+.flaskenv
+config.ini
+secrets.py # Or any file holding sensitive API keys, database credentials, etc.
+
+# Jupyter Notebook files (if you use them for experimentation)
+.ipynb_checkpoints/

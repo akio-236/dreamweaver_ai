@@ -1,6 +1,6 @@
 Dreamweaver AI
 
-An instruction-following AI that transforms a user's creative vision—genre, setting, character, plot, and tone—into a complete, original short story.
+An instruction following AI that transforms a user's creative vision of genre, setting, character, plot, and tone—into a complete, original short story.
 
 ## 🚀 Project Status
 
@@ -8,7 +8,7 @@ An instruction-following AI that transforms a user's creative vision—genre, se
 
 ## About The Project
 
-The Story Weaver AI is an instruction-following narrative generator. Its core purpose is to empower user creativity by transforming a structured set of creative ideas into a fully-formed, coherent short story. The user acts as the "director," providing the high-level vision, and the AI acts as the "obedient author," executing that vision with creative flair.
+The Dreamweaver AI is an instruction-following narrative generator. Its core purpose is to empower user creativity by transforming a structured set of creative ideas into a fully formed, coherent short story. The user acts as the "director," providing the high level vision, and the AI acts as the "obedient author," executing that vision with creative flair.
 
 The project is built by fine-tuning a `gpt2-medium` model on a custom, synthetically generated dataset.
 

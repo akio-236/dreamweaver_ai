@@ -1,4 +1,4 @@
-# Story Weaver AI
+Dreamweaver AI
 
 An instruction-following AI that transforms a user's creative vision—genre, setting, character, plot, and tone—into a complete, original short story.
 

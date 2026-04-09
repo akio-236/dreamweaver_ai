@@ -116,3 +116,7 @@ dmypy.json
 
 # Environment variables
 .env
+
+# Dataset and prompt json
+dataset.jsonl
+prompts.json

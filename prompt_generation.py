@@ -87,21 +87,24 @@ def generate_prompt():
 
 if __name__ == "__main__":
     # --- Configuration ---
-    # Let's start with a small number to test.
-    # You can increase this to 5000+ later.
-    num_prompts_to_generate = 50
+    num_prompts_to_generate = 5000
     output_file = "prompts.json"
 
-    print(f"Generating {num_prompts_to_generate} prompts...")
+    print(f"Generating {num_prompts_to_generate} unique prompts...")
 
-    # Generate the list of prompts
-    all_prompts = [generate_prompt() for _ in range(num_prompts_to_generate)]
+    # Use a set to automatically handle duplicates
+    unique_prompts = set()
 
-    # Save the prompts to a JSON file
+    # Keep generating until the set reaches the desired size
+    while len(unique_prompts) < num_prompts_to_generate:
+        unique_prompts.add(generate_prompt())
+
+    # Convert the set back to a list to save as JSON
+    all_prompts = list(unique_prompts)
 
     with open(output_file, "w") as f:
         json.dump(all_prompts, f, indent=4)
 
     print(
-        f"✅ Successfully generated and saved {len(all_prompts)} prompts to {output_file}"
+        f"✅ Successfully generated and saved {len(all_prompts)} unique prompts to {output_file}"
     )

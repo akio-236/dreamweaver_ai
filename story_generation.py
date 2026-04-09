@@ -9,7 +9,7 @@ PROMPT_FILE = "prompts.json"
 # We use .jsonl (JSON Lines) because it's great for streaming data.
 # Each line is a separate JSON object.
 OUTPUT_FILE = "dataset.jsonl"
-MODEL_NAME = "gemini-1.5-flash"  # Use a fast and capable model
+MODEL_NAME = "gemini-2.5-flash"  # Use a fast and capable model
 
 
 def load_prompts(filename):

@@ -4,13 +4,15 @@ An instruction following AI that transforms a user's creative vision of genre, s
 
 ## 🚀 Project Status
 
-**In Progress:** Phase 0 and Phase 1 are complete. Now moving on to model fine-tuning.
+**Built:** The 5,000+ prompt/story synthetic dataset (Phases 0 and 1 complete).
+
+**Planned:** GPT-2 fine-tuning, a FastAPI interface, and evaluation.
 
 ## About The Project
 
 The Dreamweaver AI is an instruction-following narrative generator. Its core purpose is to empower user creativity by transforming a structured set of creative ideas into a fully formed, coherent short story. The user acts as the "director," providing the high level vision, and the AI acts as the "obedient author," executing that vision with creative flair.
 
-The project is built by fine-tuning a `gpt2-medium` model on a custom, synthetically generated dataset.
+The plan is to fine-tune a `gpt2-medium` model on the custom, synthetically generated dataset.
 
 
 
@@ -55,8 +57,8 @@ To get a local copy up and running, follow these steps.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/YourUsername/Story-Weaver-AI.git](https://github.com/YourUsername/Story-Weaver-AI.git)
-    cd Story-Weaver-AI
+    git clone https://github.com/akio-236/dreamweaver_ai.git
+    cd dreamweaver_ai
     ```
 
 2.  **Download the large data files:**
